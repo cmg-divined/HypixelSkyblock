@@ -21,7 +21,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.10" />
     <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.10" />
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.2" />
     <PackageReference Include="Microsoft.TestPlatform.TestHost" Version="17.11.1" />
     <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.9.0" />
     <PackageReference Include="OpenTelemetry.Exporter.Jaeger" Version="1.5.1" />
@@ -36,10 +36,9 @@
     <PackageReference Include="RateLimiter" Version="2.2.0" />
     <PackageReference Include="SimplerConfig" Version="1.0.4" />
     <PackageReference Include="StackExchange.Redis" Version="2.8.16" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.8.1" />
-    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.8.1" />
-    <PackageReference Include="System.Runtime.Caching" Version="8.0.1" />
-
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.7.3" />
+    <PackageReference Include="System.Runtime.Caching" Version="8.0.0" />
 
     <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
     <PackageReference Include="NUnit" Version="4.2.2" />
@@ -48,4 +47,5 @@
     <None Include="appsettings.json" CopyToOutputDirectory="Always" CopyToPublishDirectory="Always" />
     <None Include="keyfile.p12" CopyToOutputDirectory="Always" CopyToPublishDirectory="Always" /-->
   </ItemGroup>
+
 </Project>
